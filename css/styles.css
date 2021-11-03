@@ -1,11 +1,17 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     body {
         background-color: black;
         color: white;
     }
 }
-.test-box {
-    border: 3px solid red;
-    padding: 20px;
-    margin: 20px;
-    background-color: rgb(2, 0, 98);
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+.column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
