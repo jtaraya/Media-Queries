@@ -1,9 +1,11 @@
-.column {
-    width: 300px;
-    margin: 10px;
+@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+    }
 }
 .test-box {
     border: 3px solid red;
     padding: 20px;
     margin: 20px;
-    background-color: yellow;
+    background-color: rgb(2, 0, 98);
